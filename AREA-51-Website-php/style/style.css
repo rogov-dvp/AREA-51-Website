@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Special+Elite&display=swap');
+
+body {
+    padding:50px;
+	margin:20px;
+    font-family: 'Special Elite', monospace;
+
+    background: linear-gradient(224deg, #5cff00, #5822ff);
+    background-size: 400% 400%;
+    
+    -webkit-animation: AnimationName 39s ease infinite;
+    -moz-animation: AnimationName 39s ease infinite;
+    -o-animation: AnimationName 39s ease infinite;
+    animation: AnimationName 39s ease infinite;
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 81%}
+        50%{background-position:100% 20%}
+        100%{background-position:0% 81%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 81%}
+        50%{background-position:100% 20%}
+        100%{background-position:0% 81%}
+    }
+    @-o-keyframes AnimationName {
+        0%{background-position:0% 81%}
+        50%{background-position:100% 20%}
+        100%{background-position:0% 81%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 81%}
+        50%{background-position:100% 20%}
+        100%{background-position:0% 81%}
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 40pt;
+    font-family: 'Fredoka One', sans-serif ;
+    color: white;
+    margin:0;
+}
+
+h2 {
+    font-family: 'Special Elite', monospace;
+	color: white;
+	display: block;
+}
+
+h3{
+	font-family: 'Special Elite', monospace;
+	color: white;
+	display: inline;
+}
+
+a {
+    text-decoration: none;
+	color:white;
+	text-decoration:none;
+	background: #56A4EB;
+	padding: 12px 25px;
+	display: inline-block;
+}
+
+a:hover{
+    color:pink;
+	background-color:#000000;
+	text-decoration:none;
+}
+
+.ribbon{
+    position:fixed;
+    top:10px;
+    text-align:center;
+    width: 100%;
+}
+
+.ribbon:after, .ribbon:before {
+  margin-top:0.5em;
+  content: "";
+  float:left;
+  border:1.5em solid #99CDFF;
+}
+.ribbon:after {
+  border-right-color:transparent;
+}
+.ribbon:before {
+  border-left-color:transparent;
+}
+.ribbon a:link, .ribbon a:visited { 
+  padding:0px;
+  background:none;
+  color:#151;
+  text-decoration:none;
+  float:left;
+  height:3.5em;
+  overflow:hidden;
+}
+.ribbon span {
+  background:#99CDFF;
+  display:inline-block;
+  line-height:3em;
+  padding:0 1em;
+  margin-top:0.5em;
+  position:relative;
+  transition: background-color 0.2s, margin-top 0.2s;
+}
+.ribbon a:hover span {
+  background:#FFD204;
+  margin-top:0;
+}
+.ribbon span:before {
+  content: "";
+  position:absolute;
+  top:3em;
+  left:0;
+  border-right:0.5em solid #9B8651;
+  border-bottom:0.5em solid #99CDFF;
+}
+.ribbon span:after {
+  content: "";
+  position:absolute;
+  top:3em;
+  right:0;
+  border-left:0.5em solid #9B8651;
+  border-bottom:0.5em solid #99CDFF;
+}
+
+input{
+    border-radius: 15px;
+}
+
+.product-menu{
+	width:100%;
+	margin-top:20pt;
+	display:block;
+	text-align:center;
+}
+
+.product-name{
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	background-color: #56A4EB;
+	width: 250pt;
+}
+
+#product-name:hover{
+	text-decoration:none;
+	color:pink;
+	background-color:#000000;
+	text-decoration:none;
+	width: 300pt;
+}
+
+table{
+    margin: 0 auto;
+    text-align: right;
+    width: 60%;
+}
+
+table th{
+    font-size: 14pt;
+    color: white;
+}
+
+table td{
+    color:ghostwhite;
+}
+
+.site{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#filter {
+    padding: 10px;
+    background: darksalmon;
+    border-radius: 10px;
+    width: 60%;
+    margin: 10px auto;
+}
+
+#filter input{
+    margin: 0 5px;
+    padding:5px;
+}
+
+#filter #searchFilter{
+    width:50%;
+    margin:0;
+}
+#input-primary {
+    margin: 0 5px;
+    padding:5px;
+}
+
+#input-secondary{
+    margin: 0 5px;
+    padding:5px;
+}
+
+#cart:hover #cartPrompt{
+    display:inline-block;
+	color:pink;
+}
+
+#cart{
+    padding: 3pt;
+}
+
+.orderCustomer{
+    background-color: pink;
+}
+
+.orderAdministrator{
+    text-align: right;
+}
+
+.material-icons:hover{
+	color: pink;
+}
+
+.indexPage {
+    width: 300pt;
+    background-color: #0091aa;
+    border-radius: 15px;
+    padding: 10px 0px;
+    margin: 5px 0;
+}
+
+.login-btn{
+    width: 100pt;
+    background: #99CDFF;
+    font-size: 18pt;
+}
+
+#productTable tr{
+    display:block;
+    padding: 5px 0;
+}
+
+#productTable td{
+    margin: 10px;
+}
+
+#login-form .btn{
+    margin: 5px 2px;
+}
+
+#login-form td input{
+    width:100%;
+}
+
+.prod-btn{
+    position: fixed;
+    display: block;
+    border-radius: 15px;
+}
+
+#next-prev{
+    position: absolute;
+    top:50%;
+    display: block;
+}
+
+
+.prod{
+    display: flex;
+    margin: 0 15%;
+    padding: 0 2%;
+
+    margin-top:2.5%;
+}
+
+#prod-details{
+    margin:2%;
+}
+
+#prod-container{
+    display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;  
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.prod-items{
+    text-align: center;
+    margin: 2.5%;
+    border-radius:10%;
+    background-color: rgba(164, 238, 142, 0.5);
+}
+
+.prod-items a{
+    border-radius:15%;
+
+}
+
+
+#productimage{
+	width: 300pt;
+	margin-left: auto;
+	margin-right: auto;
+	padding:20pt;
+	display: block;
+}
+
+
+#reviews{
+    margin: 0 15%;
+    padding: 0 2%;
+}
+
+#alienGif{
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
